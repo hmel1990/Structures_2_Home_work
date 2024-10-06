@@ -25,7 +25,7 @@ void start_randomize() {
 	srand(time(0));
 	rand();
 }
-/*
+
 void Device_user_input(Device& d) {
 	cout << "Please, enter type for Device: ";
 	getline(cin, d.type);
@@ -74,7 +74,7 @@ void Device_waranty(Device& d)
 		cout << "Гарантия недействительна\n";
 	}
 }
-*/
+
 
 
 void Device_input_for_sale(Device &d) //чтобы не заполнять все поля в каждом из элементов массива, заполним только нужные для заданых функций
